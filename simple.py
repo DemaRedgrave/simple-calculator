@@ -18,7 +18,7 @@ def calc(first_number, second_number, symbol):
 def main():
     first_number = float(input())
     second_number = float(input())
-    symbol = (input())
+    symbol = input()
     if second_number == 0 and (symbol == "mod" or symbol == "/" or symbol == "div"):
         print("Division by 0 is impossible!")
         return
